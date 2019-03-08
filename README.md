@@ -10,7 +10,7 @@ It uses `keras` library for deep learning, Flask for running the app and React f
 
 ## 2) Train a model
 Model is already trained and stored in `model_new.json` file with its weights stored in `cats_dogs_model.h5` file.
-You can use these, or run `train.py` again to see model training in process.
+You can use these, or run `train.py` again to see model training in process. Before doing this, you will need to create your own dataset in data/train and data/validation folders.
 
 ## 3) Run the backend for predicitions
 `python app.py`
